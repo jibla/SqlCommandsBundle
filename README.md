@@ -13,7 +13,13 @@ Generates and runs mysql command to connect to database using
 parameters, defined in `parameters.yml`. 
 
 
-### Usage:
-It's very easy to use this bundle. Just add it to your composer.json and
-enable in your `AppKernel.php` file.
+### Installation and Usage:
+It's very simple to use this bundle. Just add it to your composer.json:
+
+    composer require omedia/sqlcommandsbundle
+    
+and enable it in your Symfony application's `AppKernel.php` file's
+`registerBundles()` function like other bundles.
+    
+    new \Omedia\SqlCommandsBundle\SqlCommandsBundle()
 
