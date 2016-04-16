@@ -14,7 +14,7 @@ class SqlcCommand extends ContainerAwareCommand
     {
         $this
             ->setName('db:sqlc')
-            ->setDescription('Generates and runs mysql command to connect to database using parameters, defined in paramerers.yml')
+            ->setDescription('Generates and runs mysql command to connect to database using parameters, defined in parameters.yml')
             ->addArgument('argument', InputArgument::OPTIONAL, 'Argument description')
             ->addOption('option', null, InputOption::VALUE_NONE, 'Option description');
     }
