@@ -14,10 +14,7 @@ parameters, defined in `parameters.yml`.
 
 
 ### Installation and Usage:
-It's very simple to use this bundle. Just add it to your composer.json:
-
-    composer require omedia/sqlcommandsbundle
-    
+It's very simple to use this bundle. Just add it to your composer.json
 and enable it in your Symfony application's `AppKernel.php` file's
 `registerBundles()` function like other bundles.
     
